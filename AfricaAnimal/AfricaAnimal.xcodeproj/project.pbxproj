@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18EBCDD529479F9800C8CD92 /* AfricaAnimalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBCDD429479F9800C8CD92 /* AfricaAnimalApp.swift */; };
+		18EBCDD729479F9800C8CD92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBCDD629479F9800C8CD92 /* ContentView.swift */; };
+		18EBCDD929479F9A00C8CD92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EBCDD829479F9A00C8CD92 /* Assets.xcassets */; };
+		18EBCDDC29479F9A00C8CD92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EBCDDB29479F9A00C8CD92 /* Preview Assets.xcassets */; };
+		18EBCDE72947A2B600C8CD92 /* VIdeoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBCDE62947A2B600C8CD92 /* VIdeoListView.swift */; };
+		18EBCDE92947A2CB00C8CD92 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBCDE82947A2CB00C8CD92 /* MapView.swift */; };
+		18EBCDEB2947A2D700C8CD92 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBCDEA2947A2D700C8CD92 /* GalleryView.swift */; };
+		18EBCDED2947A2E000C8CD92 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBCDEC2947A2E000C8CD92 /* MainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18EBCDD129479F9800C8CD92 /* AfricaAnimal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AfricaAnimal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EBCDD429479F9800C8CD92 /* AfricaAnimalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaAnimalApp.swift; sourceTree = "<group>"; };
+		18EBCDD629479F9800C8CD92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18EBCDD829479F9A00C8CD92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EBCDDB29479F9A00C8CD92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18EBCDE22947A16400C8CD92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		18EBCDE62947A2B600C8CD92 /* VIdeoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIdeoListView.swift; sourceTree = "<group>"; };
+		18EBCDE82947A2CB00C8CD92 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		18EBCDEA2947A2D700C8CD92 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		18EBCDEC2947A2E000C8CD92 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EBCDCE29479F9800C8CD92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EBCDC829479F9800C8CD92 = {
+			isa = PBXGroup;
+			children = (
+				18EBCDD329479F9800C8CD92 /* AfricaAnimal */,
+				18EBCDD229479F9800C8CD92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18EBCDD229479F9800C8CD92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EBCDD129479F9800C8CD92 /* AfricaAnimal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EBCDD329479F9800C8CD92 /* AfricaAnimal */ = {
+			isa = PBXGroup;
+			children = (
+				18EBCDE22947A16400C8CD92 /* Info.plist */,
+				18EBCDE52947A28A00C8CD92 /* App */,
+				18EBCDD829479F9A00C8CD92 /* Assets.xcassets */,
+				18EBCDDA29479F9A00C8CD92 /* Preview Content */,
+			);
+			path = AfricaAnimal;
+			sourceTree = "<group>";
+		};
+		18EBCDDA29479F9A00C8CD92 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18EBCDDB29479F9A00C8CD92 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18EBCDE52947A28A00C8CD92 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				18EBCDD429479F9800C8CD92 /* AfricaAnimalApp.swift */,
+				18EBCDD629479F9800C8CD92 /* ContentView.swift */,
+				18EBCDE62947A2B600C8CD92 /* VIdeoListView.swift */,
+				18EBCDE82947A2CB00C8CD92 /* MapView.swift */,
+				18EBCDEA2947A2D700C8CD92 /* GalleryView.swift */,
+				18EBCDEC2947A2E000C8CD92 /* MainView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EBCDD029479F9800C8CD92 /* AfricaAnimal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EBCDDF29479F9A00C8CD92 /* Build configuration list for PBXNativeTarget "AfricaAnimal" */;
+			buildPhases = (
+				18EBCDCD29479F9800C8CD92 /* Sources */,
+				18EBCDCE29479F9800C8CD92 /* Frameworks */,
+				18EBCDCF29479F9800C8CD92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AfricaAnimal;
+			productName = AfricaAnimal;
+			productReference = 18EBCDD129479F9800C8CD92 /* AfricaAnimal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EBCDC929479F9800C8CD92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					18EBCDD029479F9800C8CD92 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 18EBCDCC29479F9800C8CD92 /* Build configuration list for PBXProject "AfricaAnimal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18EBCDC829479F9800C8CD92;
+			productRefGroup = 18EBCDD229479F9800C8CD92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EBCDD029479F9800C8CD92 /* AfricaAnimal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EBCDCF29479F9800C8CD92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EBCDDC29479F9A00C8CD92 /* Preview Assets.xcassets in Resources */,
+				18EBCDD929479F9A00C8CD92 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EBCDCD29479F9800C8CD92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EBCDE72947A2B600C8CD92 /* VIdeoListView.swift in Sources */,
+				18EBCDED2947A2E000C8CD92 /* MainView.swift in Sources */,
+				18EBCDE92947A2CB00C8CD92 /* MapView.swift in Sources */,
+				18EBCDD729479F9800C8CD92 /* ContentView.swift in Sources */,
+				18EBCDD529479F9800C8CD92 /* AfricaAnimalApp.swift in Sources */,
+				18EBCDEB2947A2D700C8CD92 /* GalleryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18EBCDDD29479F9A00C8CD92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18EBCDDE29479F9A00C8CD92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EBCDE029479F9A00C8CD92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AfricaAnimal/Preview Content\"";
+				DEVELOPMENT_TEAM = A8MY7W6Z5F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AfricaAnimal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GS.L.AfricaAnimal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18EBCDE129479F9A00C8CD92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AfricaAnimal/Preview Content\"";
+				DEVELOPMENT_TEAM = A8MY7W6Z5F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AfricaAnimal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GS.L.AfricaAnimal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EBCDCC29479F9800C8CD92 /* Build configuration list for PBXProject "AfricaAnimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EBCDDD29479F9A00C8CD92 /* Debug */,
+				18EBCDDE29479F9A00C8CD92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EBCDDF29479F9A00C8CD92 /* Build configuration list for PBXNativeTarget "AfricaAnimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EBCDE029479F9A00C8CD92 /* Debug */,
+				18EBCDE129479F9A00C8CD92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18EBCDC929479F9800C8CD92 /* Project object */;
+}
