@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183359432948EED6002C897F /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183359422948EED6002C897F /* CoverImageView.swift */; };
+		1833594B2948F17F002C897F /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 183359472948F17F002C897F /* locations.json */; };
+		1833594C2948F17F002C897F /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 183359482948F17F002C897F /* covers.json */; };
+		1833594D2948F17F002C897F /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 183359492948F17F002C897F /* animals.json */; };
+		1833594E2948F17F002C897F /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 1833594A2948F17F002C897F /* videos.json */; };
+		183359532948F1F4002C897F /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183359522948F1F4002C897F /* CoverImageModel.swift */; };
+		183359562948F2C0002C897F /* CodeableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183359552948F2C0002C897F /* CodeableBundleExtension.swift */; };
 		18EBCDD529479F9800C8CD92 /* AfricaAnimalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBCDD429479F9800C8CD92 /* AfricaAnimalApp.swift */; };
 		18EBCDD729479F9800C8CD92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBCDD629479F9800C8CD92 /* ContentView.swift */; };
 		18EBCDD929479F9A00C8CD92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EBCDD829479F9A00C8CD92 /* Assets.xcassets */; };
@@ -18,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		183359422948EED6002C897F /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		183359472948F17F002C897F /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		183359482948F17F002C897F /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		183359492948F17F002C897F /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
+		1833594A2948F17F002C897F /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
+		183359522948F1F4002C897F /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		183359552948F2C0002C897F /* CodeableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableBundleExtension.swift; sourceTree = "<group>"; };
 		18EBCDD129479F9800C8CD92 /* AfricaAnimal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AfricaAnimal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EBCDD429479F9800C8CD92 /* AfricaAnimalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaAnimalApp.swift; sourceTree = "<group>"; };
 		18EBCDD629479F9800C8CD92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +55,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		183359412948EEC0002C897F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				183359422948EED6002C897F /* CoverImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		183359462948F17F002C897F /* data */ = {
+			isa = PBXGroup;
+			children = (
+				183359472948F17F002C897F /* locations.json */,
+				183359482948F17F002C897F /* covers.json */,
+				183359492948F17F002C897F /* animals.json */,
+				1833594A2948F17F002C897F /* videos.json */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		183359512948F1E6002C897F /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				183359522948F1F4002C897F /* CoverImageModel.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		183359542948F2AA002C897F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				183359552948F2C0002C897F /* CodeableBundleExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		18EBCDC829479F9800C8CD92 = {
 			isa = PBXGroup;
 			children = (
@@ -60,8 +109,12 @@
 		18EBCDD329479F9800C8CD92 /* AfricaAnimal */ = {
 			isa = PBXGroup;
 			children = (
-				18EBCDE22947A16400C8CD92 /* Info.plist */,
+				183359542948F2AA002C897F /* Extension */,
+				183359512948F1E6002C897F /* Modal */,
+				183359412948EEC0002C897F /* View */,
 				18EBCDE52947A28A00C8CD92 /* App */,
+				18EBCDE22947A16400C8CD92 /* Info.plist */,
+				183359462948F17F002C897F /* data */,
 				18EBCDD829479F9A00C8CD92 /* Assets.xcassets */,
 				18EBCDDA29479F9A00C8CD92 /* Preview Content */,
 			);
@@ -147,8 +200,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1833594D2948F17F002C897F /* animals.json in Resources */,
 				18EBCDDC29479F9A00C8CD92 /* Preview Assets.xcassets in Resources */,
+				1833594C2948F17F002C897F /* covers.json in Resources */,
+				1833594B2948F17F002C897F /* locations.json in Resources */,
 				18EBCDD929479F9A00C8CD92 /* Assets.xcassets in Resources */,
+				1833594E2948F17F002C897F /* videos.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,10 +218,13 @@
 			files = (
 				18EBCDE72947A2B600C8CD92 /* VIdeoListView.swift in Sources */,
 				18EBCDED2947A2E000C8CD92 /* MainView.swift in Sources */,
+				183359432948EED6002C897F /* CoverImageView.swift in Sources */,
+				183359532948F1F4002C897F /* CoverImageModel.swift in Sources */,
 				18EBCDE92947A2CB00C8CD92 /* MapView.swift in Sources */,
 				18EBCDD729479F9800C8CD92 /* ContentView.swift in Sources */,
 				18EBCDD529479F9800C8CD92 /* AfricaAnimalApp.swift in Sources */,
 				18EBCDEB2947A2D700C8CD92 /* GalleryView.swift in Sources */,
+				183359562948F2C0002C897F /* CodeableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
