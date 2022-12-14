@@ -23,11 +23,19 @@ extension Bundle {
         let decoder = JSONDecoder()
         
         // create a property for the decoded data
-        guard let loadedData = try? decoder.decode(T.self, from: data) else {
+//        guard let loadedData = try? decoder.decode(T.self, from: data) else {
+//            fatalError("failed to locate \(file) in bundle")
+//        }
+        
+        do {
+            let loadedData = try decoder.decode(T.self, from: data)
+            return loadedData
+        } catch {
+            print(error)
             fatalError("failed to locate \(file) in bundle")
         }
 
         //return the ready-to-use data
-        return loadedData
+//        return loadedData
     }
 }
