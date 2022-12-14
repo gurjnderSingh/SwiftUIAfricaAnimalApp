@@ -26,7 +26,7 @@ struct AnimalDetailView: View {
                     .background(
                         Color.accentColor
                             .frame(height: 6)
-                            .offset(x:10, y: 24)
+                            .offset(y: 24)
                     )
                     //HEADLINE
             }
