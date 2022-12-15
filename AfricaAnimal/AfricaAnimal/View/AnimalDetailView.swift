@@ -28,7 +28,21 @@ struct AnimalDetailView: View {
                             .frame(height: 6)
                             .offset(y: 24)
                     )
-                    //HEADLINE
+                //HEADLINE
+                Text(animal.headline)
+                    .font(.headline)
+                    .multilineTextAlignment(.leading)
+                    .foregroundColor(.accentColor)
+                    .padding(.horizontal)
+                
+                //Gallery
+                Group {
+                    HeadingView(headingImage: "photo.on.rectangle.angled", headingText: "Wilderness in picture")
+                    InsertGalleryView(animal: animal)
+                }
+                .padding(.horizontal)
+                
+                
             }
             .navigationBarTitle("Learn about \(animal.name)",displayMode: .inline)
         }
