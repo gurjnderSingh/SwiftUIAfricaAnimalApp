@@ -18,7 +18,7 @@ struct HeadingView: View {
             Image(systemName: headingImage)
                 .foregroundColor(.accentColor)
                 .imageScale(.large)
-            Text(headingImage)
+            Text(headingText)
                 .font(.title3)
                 .fontWeight(.bold)
         }
