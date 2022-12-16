@@ -30,6 +30,8 @@
 		18EBCDE92947A2CB00C8CD92 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBCDE82947A2CB00C8CD92 /* MapView.swift */; };
 		18EBCDEB2947A2D700C8CD92 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBCDEA2947A2D700C8CD92 /* GalleryView.swift */; };
 		18EBCDED2947A2E000C8CD92 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBCDEC2947A2E000C8CD92 /* MainView.swift */; };
+		18EFD8F2294CCE9300892E14 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EFD8F1294CCE9300892E14 /* VideoModel.swift */; };
+		18EFD8F4294CCED700892E14 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EFD8F3294CCED700892E14 /* VideoListItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		18EBCDE82947A2CB00C8CD92 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		18EBCDEA2947A2D700C8CD92 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		18EBCDEC2947A2E000C8CD92 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		18EFD8F1294CCE9300892E14 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		18EFD8F3294CCED700892E14 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 				18E5BA60294B2930008E948A /* InsertFaceView.swift */,
 				18E5BA62294B2B4C008E948A /* InsertMapView.swift */,
 				18E5BA64294B2E53008E948A /* ExternalWebLink.swift */,
+				18EFD8F3294CCED700892E14 /* VideoListItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -102,6 +107,7 @@
 			children = (
 				183359522948F1F4002C897F /* CoverImageModel.swift */,
 				18E3196E294A3DA700F0BDC4 /* AnimalModel.swift */,
+				18EFD8F1294CCE9300892E14 /* VideoModel.swift */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
@@ -253,8 +259,10 @@
 				18EBCDE92947A2CB00C8CD92 /* MapView.swift in Sources */,
 				18EBCDD729479F9800C8CD92 /* ContentView.swift in Sources */,
 				18EBCDD529479F9800C8CD92 /* AfricaAnimalApp.swift in Sources */,
+				18EFD8F2294CCE9300892E14 /* VideoModel.swift in Sources */,
 				18EBCDEB2947A2D700C8CD92 /* GalleryView.swift in Sources */,
 				183359562948F2C0002C897F /* CodeableBundleExtension.swift in Sources */,
+				18EFD8F4294CCED700892E14 /* VideoListItemView.swift in Sources */,
 				18E5BA5F294B1644008E948A /* InsertGalleryView.swift in Sources */,
 				18E5BA5D294B14F5008E948A /* HeadingView.swift in Sources */,
 			);
@@ -382,7 +390,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AfricaAnimal/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
@@ -413,7 +422,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AfricaAnimal/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
