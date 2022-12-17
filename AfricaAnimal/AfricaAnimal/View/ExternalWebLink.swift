@@ -23,7 +23,7 @@ struct ExternalWebLink: View {
                 }
                 .foregroundColor(.accentColor)
             } //: Hstack
-        } //: Box
+        } //: GroupBox
     }
 }
 

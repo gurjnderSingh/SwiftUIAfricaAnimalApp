@@ -19,11 +19,10 @@ struct VideoListItemView: View {
                     .scaledToFit()
                     .frame(height: 80)
                     .cornerRadius(9)
-                
                 Image(systemName: "play.circle")
                     .resizable()
                     .scaledToFit()
-                    .frame(height: 12)
+                    .frame(height: 18)
                     .shadow(radius: 4)
             } //: ZStack
             
