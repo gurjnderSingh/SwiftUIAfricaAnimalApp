@@ -19,26 +19,69 @@ struct MapView: View {
     let locations: [NationalParkLocation] = Bundle.main.decode("locations.json")
     
     var body: some View {
-        Map(coordinateRegion: $region, annotationItems: locations) { item in
-            // (A) PIN: OLD Style (always static
-           // MapPin(coordinate: item.location, tint: .accentColor)
+        Map(coordinateRegion: $region,showsUserLocation: true ,annotationItems: locations) { item in
             
             // (B) MARKER: (New Style) (always static
 //             MapMarker(coordinate: item.location)
             
             // (C) Custom basic annotations (iteractive)
+//            MapAnnotation(coordinate: item.location) {
+//                Button {
+//                    print("Location is", item.location)
+//                } label: {
+//                    Image("logo")
+//                        .resizable()
+//                        .scaledToFit()
+//                        .frame(width: 30, height: 30)
+//                }
+//
+//            } // Annotation
+            
+            // (C) Custom basic annotations (iteractive)
             MapAnnotation(coordinate: item.location) {
-                Button {
-                    print("Location is", item.location)
-                } label: {
-                    Image("logo")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 30, height: 30)
+                MapAnnotationView(location: item)
+            }
+        } //: Map
+        .overlay (
+            HStack(alignment: .center, spacing: 12) {
+                Image("compass")
+                    .resizable()
+                    .scaledToFit()
+                .frame(width: 48, height: 48, alignment: .center)
+                
+                VStack (alignment: .leading, spacing: 3) {
+                    HStack {
+                        Text("Latitude")
+                            .font(.footnote)
+                            .fontWeight(.bold)
+                        .foregroundColor(.accentColor)
+                        Spacer()
+                        Text("\(region.center.latitude)")
+                            .font(.footnote)
+                    }
+                    Divider()
+                    HStack {
+                        Text("Longitude")
+                            .font(.footnote)
+                            .fontWeight(.bold)
+                        .foregroundColor(.accentColor)
+                        Spacer()
+                        Text("\(region.center.longitude)")
+                            .font(.footnote)
+                    }
                 }
-
-            } // Annotation
-        }
+                
+            }
+            .padding(.vertical, 12)
+            .padding(.horizontal, 12)
+            .background(
+                Color.black
+                    .cornerRadius(8)
+                    .opacity(0.6)
+            )
+            .padding()
+            , alignment: .top
+        )
     }
 }
 
