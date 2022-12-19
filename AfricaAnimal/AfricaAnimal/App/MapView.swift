@@ -70,7 +70,6 @@ struct MapView: View {
                             .font(.footnote)
                     }
                 }
-                
             }
             .padding(.vertical, 12)
             .padding(.horizontal, 12)
