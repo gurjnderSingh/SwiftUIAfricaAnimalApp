@@ -12,7 +12,11 @@ struct ContentView: View {
     //MARK: - Properties
     let animals: [Animal] = Bundle.main.decode("animals.json")
     let haptics = UIImpactFeedbackGenerator(style: .medium)
+    
     @State private var isGridViewActive = false
+    
+    let gridLayout: [GridItem] = Array(repeating: GridItem(.flexible()), count: 2)
+    
     //MARK: - Body
     var body: some View {
         NavigationView {
@@ -29,7 +33,17 @@ struct ContentView: View {
                         }
                     } //: List
                 } else {
-                    Text("GridView Active")
+                    ScrollView(.vertical) {
+                        LazyVGrid(columns: gridLayout, alignment: .center, spacing: 10) {
+                            ForEach(animals) { animal in
+                                NavigationLink(destination: AnimalDetailView(animal: animal)) {
+                                    AnimalGridItemView(animal: animal)
+                                } //: Link
+                            } //: Loop
+                        } //: Grid
+                        .padding(10)
+                        .animation(.easeIn)
+                    } //: Scroll
                 } //: Condition
             } // Group
             .navigationBarTitle("Africa",displayMode: .large)
