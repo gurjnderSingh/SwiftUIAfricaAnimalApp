@@ -15,7 +15,30 @@ struct ContentView: View {
     
     @State private var isGridViewActive = false
     
-    let gridLayout: [GridItem] = Array(repeating: GridItem(.flexible()), count: 2)
+    @State private var gridLayout: [GridItem] = [GridItem(.flexible())]  //Array(repeating: GridItem(.flexible()), count: 2)
+    
+    @State private var gridColumn = 1
+    @State private var toolbarIcon: String = "square.grid.2x2"
+    
+    //MARK: - Function
+    
+    func gridSwitch() {
+        gridLayout = Array(repeating: GridItem(.flexible()), count: gridLayout.count % 3 + 1)
+        gridColumn = gridLayout.count
+        print("Grid number- \(gridColumn)")
+        
+        //Toolbar Image
+        switch gridColumn {
+        case 1:
+            toolbarIcon = "square.grid.2x2"
+        case 2:
+            toolbarIcon = "square.grid.3x2"
+        case 3:
+            toolbarIcon = "rectangle.grid.1x2"
+        default:
+            toolbarIcon = "square.grid.2x2"
+        }
+    }
     
     //MARK: - Body
     var body: some View {
@@ -62,8 +85,9 @@ struct ContentView: View {
                     Button {
                         isGridViewActive = true
                         haptics.impactOccurred()
+                        gridSwitch()
                     } label: {
-                        Image(systemName: "square.grid.2x2")
+                        Image(systemName: toolbarIcon)
                             .font(.title2)
                             .foregroundColor(isGridViewActive ? .accentColor : .primary)
                     }
