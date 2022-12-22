@@ -8,6 +8,9 @@
   },
   "stickers" : [
     {
+      "filename" : "sticker-lion.sticker"
+    },
+    {
       "filename" : "sticker-cheetah.sticker"
     },
     {
@@ -18,9 +21,6 @@
     },
     {
       "filename" : "sticker-gorilla.sticker"
-    },
-    {
-      "filename" : "sticker-lion.sticker"
     },
     {
       "filename" : "sticker-zebra.sticker"
